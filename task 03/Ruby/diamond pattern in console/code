@@ -1,0 +1,35 @@
+def print_diamond(n)
+  if n <= 0 || n.even?
+    puts "Please enter a positive odd integer."
+    return
+  end
+
+  mid = n / 2  
+  
+  (0..mid).each do |i|
+    print ' ' * (mid - i)
+ 
+    puts '*' * (2 * i + 1)
+  end
+
+  (mid - 1).downto(0) do |i|
+    print ' ' * (mid - i)
+    puts '*' * (2 * i + 1)
+  end
+end
+
+def main
+  print "Enter the number of rows for the diamond pattern (must be an odd integer): "
+  begin
+    n = Integer(gets.chomp)
+    if n <= 0 || n.even?
+      puts "The number of rows must be a positive odd integer."
+    else
+      print_diamond(n)
+    end
+  rescue ArgumentError
+    puts "Invalid input. Please enter an integer."
+  end
+end
+
+main
