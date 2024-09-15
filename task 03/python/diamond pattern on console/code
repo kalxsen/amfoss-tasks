@@ -1,0 +1,27 @@
+def print_diamond(rows):
+    if rows < 1 or rows % 2 == 0:
+        print("Enter an odd number greater than 0.")
+        return
+    
+    mid_point = rows // 2
+
+    #  upper part 
+    for i in range(mid_point + 1):
+        # Print leading spaces
+        print(' ' * (mid_point - i), end='')
+        # Print stars
+        print('*' * (2 * i + 1))
+
+    #  lower part 
+    for i in range(mid_point - 1, -1, -1):
+        # Print leading spaces
+        print(' ' * (mid_point - i), end='')
+        # Print stars
+        print('*' * (2 * i + 1))
+
+# Input 
+try:
+    rows = int(input("Enter number of rows for the diamond (odd number): "))
+    print_diamond(rows)
+except ValueError:
+    print("Enter a positive even number.")
