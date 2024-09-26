@@ -1,0 +1,12 @@
+{:ok, content} = File.read("input.txt")
+n = String.to_integer(content)
+
+File.write!("output.txt", "")
+
+for i <- 0..div(n, 2) do
+  File.write!("output.txt", String.duplicate(" ", div(n, 2) - i) <> String.duplicate("*", 2*i + 1) <> "\n", [:append])
+end
+
+for i <- (div(n, 2)-1)..0 do
+  File.write!("output.txt", String.duplicate(" ", div(n, 2) - i) <> String.duplicate("*", 2*i + 1) <> "\n", [:append])
+end
