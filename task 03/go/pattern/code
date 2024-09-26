@@ -1,0 +1,23 @@
+package main
+import "fmt"
+
+func main() {
+    var n int
+    fmt.Print("Enter an odd number: ")
+    fmt.Scan(&n)
+
+    for i := 0; i <= n/2; i++ {
+        fmt.Println(spaces(n/2-i) + stars(2*i+1))
+    }
+    for i := n/2 - 1; i >= 0; i-- {
+        fmt.Println(spaces(n/2-i) + stars(2*i+1))
+    }
+}
+
+func spaces(count int) string {
+    return string(make([]byte, count))
+}
+
+func stars(count int) string {
+    return string(make([]byte, count))
+}
