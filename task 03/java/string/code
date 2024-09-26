@@ -1,4 +1,10 @@
-const fs = require('fs');
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
-const content = fs.readFileSync('input.txt', 'utf8');
-fs.writeFileSync('output.txt', content);
+public class string {
+    public static void main(String[] args) throws IOException {
+        String content = new String(Files.readAllBytes(Paths.get("input.txt")));
+        Files.write(Paths.get("output.txt"), content.getBytes());
+    }
+}
