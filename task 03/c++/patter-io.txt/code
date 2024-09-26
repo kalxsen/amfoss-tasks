@@ -1,0 +1,29 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+void printDiamondToFile(int n, ofstream &output);
+
+int main() {
+    int n;
+    ifstream input("input.txt");
+    ofstream output("output.txt");
+
+    if (input.is_open()) {
+        input >> n;
+        printDiamondToFile(n, output);
+    }
+
+    input.close();
+    output.close();
+    return 0;
+}
+
+void printDiamondToFile(int n, ofstream &output) {
+    for (int i = 0; i <= n / 2; i++) {
+        output << string(n / 2 - i, ' ') << string(2 * i + 1, '*') << endl;
+    }
+    for (int i = n / 2 - 1; i >= 0; i--) {
+        output << string(n / 2 - i, ' ') << string(2 * i + 1, '*') << endl;
+    }
+}
