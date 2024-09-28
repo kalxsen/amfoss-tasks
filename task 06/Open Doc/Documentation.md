@@ -33,7 +33,7 @@ The main functionality of Neofetch is divided into several modules that handle d
         shell.sh: Gets the user's shell and version.
         resolution.sh: Finds and prints the current screen resolution.
 
-Key Functions:
+## Key Functions:
 
 * print_info(): This function is responsible for collecting all system information and formatting it for display.
 * get_logo(): This retrieves and formats the ASCII logo that corresponds to the detected OS.
