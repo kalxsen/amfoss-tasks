@@ -1,5 +1,6 @@
 # Neofetch Documentation
 
+
 ## Overview
 
 Neofetch is a command-line tool written in Bash that displays information about your system next to your operating system's logo. The tool is often used for showing off desktop configurations and making system information aesthetically pleasing.
