@@ -6,7 +6,8 @@ The game, as much as I played was really fun.
 
 ## Difficulties faced if any
 * echoing codes
-* pushing them into terminal
+* pushing them into git hub
+  
 are parts where I found myself stuck at times.
 
 ## overall view
