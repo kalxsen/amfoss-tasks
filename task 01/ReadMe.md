@@ -1,5 +1,7 @@
 # Task to increase typing speed
 
+the images show my progress with speed increasing from 1.png to 7.png
+
 ## AIM
 As a someone trying to grow in the world of coding, typing speed is extremely important. In this task I had aimed to imrprove my typing speed.
 
