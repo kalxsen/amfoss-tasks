@@ -1,3 +1,5 @@
+# Blog on my telegram bot building journey.
+
 Writing my blog on how to build a book recommending telegram bot was a lot of fun! 
 I loved diving into the process of creating PagePal, breaking it down into easy steps, and sharing it in a way that felt like telling a story. 
 It was exciting to blend coding with creativity, and I enjoyed imagining the readers building their own bots.
