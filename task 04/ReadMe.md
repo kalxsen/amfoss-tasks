@@ -1,6 +1,6 @@
 This was the task I enjoyed doing the most so far. No doubt about it.
 
-# How to I did it.
+# How I did it.
 1. get the bot API from Bot Father via telegram
 2. get google cloud API from google cloud
 3. add required API services
