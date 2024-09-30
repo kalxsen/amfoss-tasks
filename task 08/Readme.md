@@ -1,4 +1,4 @@
-# ReadMe
+# ReadMe on my blog on documentation of neotech
 
 Writing my blog post about documenting Neofetch was an enriching and transformative experience. 
 As someone new to coding and open source, I found the process both challenging and rewarding.
